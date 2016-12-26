@@ -13,7 +13,7 @@ isGoodJSON('{"kity": "Fluffy"}'); // returns true
 ## Install / Update
 
 ```bash
-npm install --save is-valid-json
+npm install --save is-good-json
 ```
 
 ## Usage
