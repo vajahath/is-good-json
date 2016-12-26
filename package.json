@@ -1,0 +1,22 @@
+{
+  "name": "is-valid-json",
+  "version": "1.0.0",
+  "description": "An npm package to check if the JSON is valid and not empty",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vajahath/isValidJSON.git"
+  },
+  "keywords": [
+    "JSON"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vajahath/isValidJSON/issues"
+  },
+  "homepage": "https://github.com/vajahath/isValidJSON#readme"
+}
