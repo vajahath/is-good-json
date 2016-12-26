@@ -78,7 +78,7 @@ isGoodJSON('{"name": "Kitty", "friends":["tom", "jerry"]}');
 ```
 
 
-If you wish to file any feature/bugs, mention it on [issues](https://github.com/vajahath/lme/issues).
+If you wish to file any feature/bugs, mention it on [issues](https://github.com/vajahath/is-good-json/issues).
 
 <br>
 
