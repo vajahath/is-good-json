@@ -1,11 +1,11 @@
 
-![](https://raw.githubusercontent.com/vajahath/is-valid-json/master/media/logo.png)
+![](https://raw.githubusercontent.com/vajahath/is-good-json/master/media/logo.png)
 
 ##### Simple package to validate JSON files.
 
 
 ```javascript
-isValidJSON('{"kity": "Fluffy"}'); // returns true
+isGoodJSON('{"kity": "Fluffy"}'); // returns true
 ```
 
 
@@ -20,30 +20,30 @@ npm install --save is-valid-json
 
 ### Syntax
 
-`isValidJSON(<argument>);`
+`isGoodJSON(<argument>);`
 
 ### Example
 ```javascript
 // load package
-const isValidJSON = require('is-valid-json');
+const isGoodJSON = require('is-good-json');
 
 // use it
-isValidJSON('{"this": "is","a": "good json"}') // -> returns parsed object: {"this": "is","a": "good json"}
-isValidJSON({"this": "is","a": "good json"}) // -> returns same object
+isGoodJSON('{"this": "is","a": "good json"}') // -> returns parsed object: {"this": "is","a": "good json"}
+isGoodJSON({"this": "is","a": "good json"}) // -> returns same object
 
-isValidJSON('{ha: "hi" meuo: "ho"}') // -> returns false
-isValidJSON('[{"ths":asdf}{"adasd":asdf}]') // -> returns false
+isGoodJSON('{ha: "hi" meuo: "ho"}') // -> returns false
+isGoodJSON('[{"ths":asdf}{"adasd":asdf}]') // -> returns false
 
 // empty arrays and objects
-isValidJSON('[]') // -> returns false
-isValidJSON('{}') // -> returns false
-isValidJSON([]) // -> returns false
-isValidJSON({}) // -> returns false
+isGoodJSON('[]') // -> returns false
+isGoodJSON('{}') // -> returns false
+isGoodJSON([]) // -> returns false
+isGoodJSON({}) // -> returns false
 ```
 
 ### Usage
 
-**Syntax :** `b = isValidJSON(a);`
+**Syntax :** `b = isGoodJSON(a);`
 
 where `a` and `b` are as follows,
 
@@ -68,7 +68,7 @@ where `a` and `b` are as follows,
 ### one more example
 
 ```javascript
-isValidJSON('{"name": "Kitty", "friends":["tom", "jerry"]}');
+isGoodJSON('{"name": "Kitty", "friends":["tom", "jerry"]}');
 /* returns the following parsed object:
     {
         name: "kitty",

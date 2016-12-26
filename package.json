@@ -1,5 +1,5 @@
 {
-  "name": "is-valid-json",
+  "name": "is-good-json",
   "version": "1.0.0",
   "description": "An npm package to check if the JSON is valid and not empty",
   "main": "index.js",
