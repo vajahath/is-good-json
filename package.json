@@ -4,19 +4,27 @@
   "description": "An npm package to check if the JSON is valid and not empty",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha *.spec.js --reporter spec"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vajahath/isValidJSON.git"
   },
   "keywords": [
-    "JSON"
+    "JSON",
+    "lint",
+    "validate",
+    "validation"
   ],
-  "author": "",
+  "author": "Vajahath Ahmed <vajuoff.1@gmail.com> (http://twitter.com/vajahath7)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/vajahath/isValidJSON/issues"
   },
-  "homepage": "https://github.com/vajahath/isValidJSON#readme"
+  "homepage": "https://github.com/vajahath/isValidJSON#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "lme": "^1.2.1",
+    "lodash": "^4.17.3"
+  }
 }
