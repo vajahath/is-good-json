@@ -87,7 +87,9 @@ Enjoy.
 ## Change log
 
  - v1.0.0
-     - Initial release
+     + Initial release
+ - v1.0.1
+     + Github integration done right.
 
 ## License
 MIT &copy; [Vajahath Ahmed](https://mycolorpad.blogspot.in)

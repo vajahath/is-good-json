@@ -1,6 +1,6 @@
 {
   "name": "is-good-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An npm package to check if the JSON is valid and not empty",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vajahath/isValidJSON.git"
+    "url": "git+https://github.com/vajahath/is-good-json.git"
   },
   "keywords": [
     "JSON",
@@ -19,9 +19,9 @@
   "author": "Vajahath Ahmed <vajuoff.1@gmail.com> (http://twitter.com/vajahath7)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vajahath/isValidJSON/issues"
+    "url": "https://github.com/vajahath/is-good-json/issues"
   },
-  "homepage": "https://github.com/vajahath/isValidJSON#readme",
+  "homepage": "https://github.com/vajahath/is-good-json#readme",
   "dependencies": {
     "chai": "^3.5.0",
     "lme": "^1.2.1",
