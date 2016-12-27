@@ -1,6 +1,6 @@
 {
   "name": "is-good-json",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An npm package to check if the JSON is valid and not empty",
   "main": "index.js",
   "scripts": {
@@ -23,8 +23,10 @@
   },
   "homepage": "https://github.com/vajahath/is-good-json#readme",
   "dependencies": {
-    "chai": "^3.5.0",
     "lme": "^1.2.1",
     "lodash": "^4.17.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
   }
 }
