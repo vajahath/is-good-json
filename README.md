@@ -5,14 +5,15 @@
 
 
 ```javascript
-isGoodJSON('{"kity": "Fluffy"}'); // returns true
+isGoodJSON('{"kity": "Fluffy"}'); // returns parsed object
+isGoodJSON('{"kity" "Fluffy"}'); // returns false
 ```
 
 
 
 ## Install / Update
 
-```bash
+```shell
 npm install --save is-good-json
 ```
 
@@ -86,6 +87,8 @@ Enjoy.
 
 ## Change log
 
+ - v1.0.3
+     + Documentation updates.
  - v1.0.2
      + Dependency adjustments.
  - v1.0.1
