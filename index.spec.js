@@ -1,3 +1,5 @@
+'use strict';
+
 // test
 // ====
 var expect = require('chai').expect;
