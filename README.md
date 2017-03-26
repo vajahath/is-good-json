@@ -3,6 +3,8 @@
 
 ##### Simple package to validate JSON files.
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/vajahath/is-good-json.svg)](https://greenkeeper.io/)
+
 
 ```javascript
 isGoodJSON('{"kity": "Fluffy"}'); // returns parsed object
