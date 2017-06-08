@@ -97,7 +97,7 @@ Enjoy.
 ## Change log
  - v1.0.4
      + Perf improvements with [#1](https://github.com/vajahath/is-good-json/pull/1), (thanks [@demacdonald](https://github.com/demacdonald))
-     + adds Greenkeeper, tavis.
+     + adds Greenkeeper, tavis ci.
  - v1.0.3
      + Documentation updates.
  - v1.0.2
