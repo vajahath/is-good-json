@@ -4,7 +4,8 @@
 	"description": "An npm package to check if the JSON is valid and not empty",
 	"main": "index.js",
 	"scripts": {
-		"test": "mocha *.spec.js --reporter spec"
+		"test": "node_modules/.bin/mocha *.spec.js --reporter spec",
+		"lint": "node_modules/.bin/xo ."
 	},
 	"repository": {
 		"type": "git",
@@ -29,6 +30,7 @@
 	"devDependencies": {
 		"chai": "^3.5.0",
 		"mocha": "^3.2.0",
-		"mocha-each": "^1.0.3"
+		"mocha-each": "^1.0.3",
+		"xo": "^0.18.2"
 	}
 }
