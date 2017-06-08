@@ -4,8 +4,8 @@
   "description": "An npm package to check if the JSON is valid and not empty",
   "main": "index.js",
   "scripts": {
-    "test": "xo && node_modules/.bin/mocha *.spec.js --reporter spec",
-    "lint": "node_modules/.bin/xo ."
+    "test": "xo && node_modules/.bin/xo && node_modules/.bin/mocha *.spec.js --reporter spec",
+    "lint": "node_modules/.bin/xo --fix"
   },
   "repository": {
     "type": "git",
