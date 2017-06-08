@@ -1,11 +1,18 @@
+# is-good-json
+
+Simple package to validate JSON files.
+
+[![npm](https://img.shields.io/npm/v/is-good-json.svg)](https://www.npmjs.com/package/is-good-json)
+[![Build Status](https://travis-ci.org/vajahath/is-good-json.svg?branch=master)](https://travis-ci.org/vajahath/is-good-json)
+[![Known Vulnerabilities](https://snyk.io/test/npm/is-good-json/badge.svg)](https://snyk.io/test/npm/is-good-json)
+[![npm](https://img.shields.io/npm/dt/is-good-json.svg)](https://www.npmjs.com/package/is-good-json)
+[![Greenkeeper badge](https://badges.greenkeeper.io/vajahath/is-good-json.svg)](https://greenkeeper.io/) 
 
 ![](https://raw.githubusercontent.com/vajahath/is-good-json/master/media/logo.png)
 
-##### Simple package to validate JSON files.
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/vajahath/is-good-json.svg)](https://greenkeeper.io/)
 
 
+#### Usage
 ```javascript
 isGoodJSON('{"kity": "Fluffy"}'); // returns parsed object
 isGoodJSON('{"kity" "Fluffy"}'); // returns false
@@ -88,7 +95,9 @@ If you wish to file any feature/bugs, mention it on [issues](https://github.com/
 Enjoy.
 
 ## Change log
-
+ - v1.0.4
+     + Perf improvements with [#1](https://github.com/vajahath/is-good-json/pull/1), (thanks [@demacdonald](https://github.com/demacdonald))
+     + adds Greenkeeper, tavis.
  - v1.0.3
      + Documentation updates.
  - v1.0.2
@@ -98,5 +107,14 @@ Enjoy.
  - v1.0.0
      + Initial release
 
+<br>
+
+[![PayPal][badge_paypal_donate]][paypal-donations]
+
+
 ## License
 MIT &copy; [Vajahath Ahmed](https://mycolorpad.blogspot.in)
+
+
+[badge_paypal_donate]: https://cdn.rawgit.com/vajahath/cloud-codes/a01f087f/badges/paypal_donate.svg
+[paypal-donations]: https://paypal.me/vajahath
