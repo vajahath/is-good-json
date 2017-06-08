@@ -95,6 +95,8 @@ If you wish to file any feature/bugs, mention it on [issues](https://github.com/
 Enjoy.
 
 ## Change log
+ - v1.0.5
+     + linting stuffs
  - v1.0.4
      + Perf improvements with [#1](https://github.com/vajahath/is-good-json/pull/1), (thanks [@demacdonald](https://github.com/demacdonald))
      + adds Greenkeeper, tavis ci.
