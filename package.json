@@ -1,36 +1,36 @@
 {
-	"name": "is-good-json",
-	"version": "1.0.4",
-	"description": "An npm package to check if the JSON is valid and not empty",
-	"main": "index.js",
-	"scripts": {
-		"test": "node_modules/.bin/mocha *.spec.js --reporter spec",
-		"lint": "node_modules/.bin/xo ."
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/vajahath/is-good-json.git"
-	},
-	"keywords": [
-		"JSON",
-		"lint",
-		"validate",
-		"validation"
-	],
-	"author": "Vajahath Ahmed <vajuoff.1@gmail.com> (http://twitter.com/vajahath7)",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/vajahath/is-good-json/issues"
-	},
-	"homepage": "https://github.com/vajahath/is-good-json#readme",
-	"dependencies": {
-		"lme": "^1.2.1",
-		"lodash": "^4.17.3"
-	},
-	"devDependencies": {
-		"chai": "^4.0.2",
-		"mocha": "^3.2.0",
-		"mocha-each": "^1.0.3",
-		"xo": "^0.18.2"
-	}
+  "name": "is-good-json",
+  "version": "1.0.4",
+  "description": "An npm package to check if the JSON is valid and not empty",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && node_modules/.bin/mocha *.spec.js --reporter spec",
+    "lint": "node_modules/.bin/xo ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vajahath/is-good-json.git"
+  },
+  "keywords": [
+    "JSON",
+    "lint",
+    "validate",
+    "validation"
+  ],
+  "author": "Vajahath Ahmed <vajuoff.1@gmail.com> (http://twitter.com/vajahath7)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vajahath/is-good-json/issues"
+  },
+  "homepage": "https://github.com/vajahath/is-good-json#readme",
+  "dependencies": {
+    "lme": "^1.2.1",
+    "lodash": "^4.17.3"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.2.0",
+    "mocha-each": "^1.0.3",
+    "xo": "^0.18.2"
+  }
 }
