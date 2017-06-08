@@ -53,11 +53,11 @@ where `a` and `b` are as follows,
 | value of `a`                           | value of `b`                  |
 | -------------------------------------- | ----------------------------- |
 | `null`                                 | `false`                       |
-| `true` or `false`                      | `false`                       | 
-| any number                             | `false`                       | 
+| `true` or `false`                      | `false`                       |
+| any number                             | `false`                       |
 | valid json as `string`                 | parsed json object            |
 | valid json as `object`                 | same json object              |
-| invalid json as `object`               | `false`                       |
+| invalid json as `string`               | `false`                       |
 | invalid json as `object`               | `false`                       |
 | valid, but empty json                  | `false`                       |
 | valid non-empty `object`               | same object                   |
