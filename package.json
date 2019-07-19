@@ -22,7 +22,7 @@
 	"homepage": "https://github.com/vajahath/is-good-json#readme",
 	"dependencies": {
 		"lme": "^1.2.1",
-		"lodash": "^4.17.3"
+		"lodash": "^4.17.15"
 	},
 	"devDependencies": {
 		"chai": "^4.0.2",
